@@ -1,5 +1,5 @@
 {
-  "name": "template-ethereum-contracts",
+  "name": "backend",
   "version": "0.1.0",
   "description": "Template to develop ethereum smart contracts",
   "private": true,
@@ -75,5 +75,8 @@
     "fork:node": "node ./_scripts.js fork:node",
     "fork:test": "node ./_scripts.js fork:test",
     "tenderly:push": "node ./_scripts.js tenderly:push"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.1"
   }
 }
